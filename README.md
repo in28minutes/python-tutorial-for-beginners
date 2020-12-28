@@ -1519,6 +1519,7 @@ In this step, let's look at a few exercises.
 3. Print the first 10 even numbers in reverse
 4. Print the squares of the first 10 numbers
 5. Print the squares of the first 10 numbers, in reverse
+6. Print the squares of the even numbers
 
 #### Solution 1
 
@@ -1565,11 +1566,32 @@ Usually these step value is positive, but we need to go backwards from ```10```.
 
 #### Solution 3
 
-Next, we would want to print the squares of the first ```10``` numbers. 
+Now, let's print the first ```10``` even numbers in reverse. 
+
+```py
+	>>> for i in range (20,0,-2):
+	...   print(i)
+	... 
+	20
+	18
+	16
+	14
+	12
+	10
+	8
+	6
+	4
+	2
+
+```
+
+#### Solution 4
+
+Next, we would want to print the squares of the first 10 numbers. 
 
 ```py
 	>>> for i in range (1,11):
-	...   print(i * i)
+	...     print(i * i)
 	... 
 	1
 	4
@@ -1584,7 +1606,7 @@ Next, we would want to print the squares of the first ```10``` numbers.
 
 ```
 
-#### Solution 4
+#### Solution 5
 
 Let's print the squares in the reverse order. 
 
@@ -1605,7 +1627,8 @@ Let's print the squares in the reverse order.
 
 ```
 
-#### Solution 5
+
+#### Solution 6
 
 Print the squares of the even numbers. How to do that? 
 
